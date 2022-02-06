@@ -1,0 +1,21 @@
+.idea
+
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+# dist
+
+.env
+.vscode
+/.vscode
+
+coverage
+.nuxt-build-jest
+

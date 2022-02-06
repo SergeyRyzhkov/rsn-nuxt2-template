@@ -1,0 +1,10 @@
+@import "variables";
+@import "layouts";
+@import "typography";
+@import "_skeleton";
+
+:root {
+  --primary: #{$primary};
+  --secondary: #{$secondary};
+  --gray: #{$gray};
+}

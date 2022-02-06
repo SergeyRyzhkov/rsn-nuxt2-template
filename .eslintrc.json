@@ -1,0 +1,36 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": [
+    "@nuxtjs",
+    "@nuxtjs/eslint-config-typescript",
+    "prettier",
+    "plugin:prettier/recommended",
+    "plugin:nuxt/recommended",
+    "plugin:tailwindcss/recommended"
+  ],
+  "plugins": ["prettier", "tailwindcss"],
+  "rules": {
+    "@typescript-eslint/explicit-module-boundary-types": 0,
+    "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/no-var-requires": 0,
+    "@typescript-eslint/ban-ts-ignore": 0,
+    "@typescript-eslint/ban-ts-comment": 0,
+    "no-extra-boolean-cast": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "tailwindcss/classnames-order": "off",
+    // "tailwindcss/enforces-shorthand": "warn",
+    // "tailwindcss/migration-from-tailwind-2": "warn",
+    "tailwindcss/no-arbitrary-value": "off",
+    "tailwindcss/no-custom-classname": "off",
+    "tailwindcss/no-contradicting-classname": "error"
+  }
+}

@@ -1,0 +1,86 @@
+/*! purgecss start ignore */
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.2s ease-out;
+}
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+  transform-origin: 50% 50%;
+}
+
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.layout-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page-wrapper {
+  flex-grow: 1;
+  position: relative;
+}
+
+.container-fluid {
+  width: 100vw;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+  display: block;
+  border: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  border: 0px;
+}
+
+//
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* W3C standard
+   сейчас только для Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: $gray white;
+}
+
+/* для Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+}
+*::-webkit-scrollbar-track {
+  background: $gray;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: white;
+}
+
+.grecaptcha-badge {
+  display: none;
+}
+
+/*! purgecss end ignore */
