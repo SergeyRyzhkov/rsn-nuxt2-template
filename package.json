@@ -1,6 +1,8 @@
 {
-  "name": "yarus_front",
+  "name": "nuxt2_template",
   "version": "1.0.0",
+  "license": "MIT",
+  "author": "Sergey Ryzhkov <SergeyRyzhkov76@gmail.com>",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
